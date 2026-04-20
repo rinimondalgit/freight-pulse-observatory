@@ -1,0 +1,22 @@
+id: freight_observatory_pipeline
+namespace: de.zoomcamp
+triggers:
+  - id: weekly_schedule
+    type: io.kestra.plugin.core.trigger.Schedule
+    cron: "0 6 * * 1"
+tasks:
+  - id: ingest_shipments
+    type: io.kestra.plugin.scripts.python.Commands
+    containerImage: tech-obs-ingestion:v1
+    commands: [python ingest_shipments.py]
+  - id: ingest_carriers
+    type: io.kestra.plugin.scripts.python.Commands
+    containerImage: tech-obs-ingestion:v1
+    commands: [python ingest_carriers.py]
+  - id: verify_bigquery
+    type: io.kestra.plugin.scripts.python.Commands
+    containerImage: tech-obs-ingestion:v1
+    commands: [python verify.py]
+  - id: log_success
+    type: io.kestra.plugin.core.log.Log
+    message: "Freight observatory pipeline completed successfully at {{ now() }}"

@@ -1,0 +1,15 @@
+name: 'freight_pulse_observatory'
+version: '1.0.0'
+config-version: 2
+profile: 'freight_pulse_observatory'
+model-paths: ["models"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+models:
+  freight_pulse_observatory:
+    staging:
+      +materialized: view
+      +schema: freight_staging
+    marts:
+      +materialized: table
+      +schema: freight_mart

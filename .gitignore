@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+target/
+dbt_packages/
+logs/
+.env
+credentials.json
+.terraform/
+terraform.tfstate*
+keys/
+*.json
