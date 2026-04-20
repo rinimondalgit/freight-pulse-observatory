@@ -15,6 +15,10 @@ The dashboard has this page:
 
 &#x20;Ecosystem Health: Delay rate by carrier, scorecards
 
+## Dashboard Preview
+
+![Dashboard](images/dashboard_overview.png)
+
 \---
 
 ## Architecture
