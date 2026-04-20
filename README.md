@@ -7,7 +7,7 @@ In many logistics environments, shipment data exists across multiple systems wit
 
 ## Live Dashboard
 
-[View Dashboard on Looker Studio](https://datastudio.google.com/u/0/reporting/9f84a770-c233-46c7-927d-98f9869de18a/page/g7cvF/edit)
+[View Dashboard on Looker Studio](https://datastudio.google.com/s/mAllXuyFkR8)
 
 The dashboard has this page:
 
