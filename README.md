@@ -6,7 +6,7 @@
 
 [View Dashboard on Looker Studio](https://datastudio.google.com/u/0/reporting/9f84a770-c233-46c7-927d-98f9869de18a/page/g7cvF/edit)
 
-The dashboard has two pages:
+The dashboard has this page:
 
 * Shipment Trends: Monthly shipment trend, top delayed carriers, geo map, scorecards
 
@@ -39,7 +39,7 @@ The following diagram illustrates the end-to-end data pipeline:
 
 
 
-!\[Architecture Diagram](images/architecture\_diagram.png)
+!\[Architecture Diagram](images/architecture\_diagram.png.png)
 
 
 
