@@ -46,7 +46,7 @@ The following diagram illustrates the end-to-end data pipeline:
 
 
 
-!\[Architecture Diagram](images/archtecture_diagram.png)
+![Architecture Diagram](images/architecture_diagram.png)
 
 
 
