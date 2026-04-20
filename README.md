@@ -17,7 +17,7 @@ The dashboard has this page:
 
 ## Dashboard Preview
 
-![Dashboard](images/dashboard_overview.png)
+![Dashboard](images/dashboard.png)
 
 \---
 
