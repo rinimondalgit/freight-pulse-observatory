@@ -1,3 +1,6 @@
+Problem statement :
+In many logistics environments, shipment data exists across multiple systems without a unified analytics layer. This lack of centralized visibility makes it difficult to monitor on-time delivery performance, evaluate carrier reliability, and identify high-risk routes. As a result, decision-making becomes reactive rather than data-driven, leading to operational inefficiencies and SLA breaches.
+
 # Freight Pulse Observatory
 
 > A cloud-native batch data pipeline analyzing freight ecosystem health by correlating shipment delay trends with carrier profile data across routes, modes, and geographies.
